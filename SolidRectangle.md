@@ -38,10 +38,10 @@ public class SolidRectangle {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter number of rows: ");
-        int rows = sc.nextInt();  // Take input from user on row
+        int rows = sc.nextInt();  // Take input from user of row
 
         System.out.println("Enter number of columns: ");
-        int cols = sc.nextInt();  // Take input from user on column
+        int cols = sc.nextInt();  // Take input from user of column
 
         for (int i = 1; i <= rows; i++) {  // for row condition
 
