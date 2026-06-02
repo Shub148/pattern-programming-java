@@ -37,19 +37,19 @@ public class SolidRectangle {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter number of rows: ");
-        int rows = sc.nextInt();
+        System.out.println("Enter number of rows: ");
+        int rows = sc.nextInt();  // Take input from user on row
 
-        System.out.print("Enter number of columns: ");
-        int cols = sc.nextInt();
+        System.out.println("Enter number of columns: ");
+        int cols = sc.nextInt();  // Take input from user on column
 
-        for (int i = 1; i <= rows; i++) {
+        for (int i = 1; i <= rows; i++) {  // for row condition
 
-            for (int j = 1; j <= cols; j++) {
-                System.out.print("*");
+            for (int j = 1; j <= cols; j++) {  // for column condition
+                System.out.print("*");//not used println because it print on next line but we want it must present on same line that is why we used print so it //print till it satisfy the condition
             }
 
-            System.out.println();
+            System.out.println(); // Move to next line
         }
 
         
