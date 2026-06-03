@@ -20,7 +20,7 @@ Print an inverted half pyramid pattern using `*`.
 import java.util.Scanner;
 class file name{
 public static void main(String[] args){
-Scaner sc = new Scanner(System.in);
+Scanner sc = new Scanner(System.in);
 System.out.print("Enter number of rows: ");
 int row = sc.nextInt();
 for(int i=row; i>=1; i--){
