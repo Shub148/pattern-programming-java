@@ -1,3 +1,5 @@
+# pattern-programming-java
+This contains pattern programming question.
 # Java Pattern Programming
 
 This repository contains Java solutions for pattern programming questions.
